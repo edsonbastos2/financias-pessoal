@@ -29,6 +29,13 @@
       "categoryId": 2
     },
     {
+      "id": 5,
+      "description": "IPVA",
+      "amount": 750,
+      "date": "2022-01-07",
+      "categoryId": 3
+    },
+    {
       "id": 6,
       "description": "Cinema",
       "amount": 60,
@@ -41,24 +48,46 @@
       "amount": 100,
       "date": "2022-01-10",
       "categoryId": 4
+    },
+    {
+      "id": 8,
+      "description": "Google stcok",
+      "amount": 100,
+      "date": "2022-01-15",
+      "categoryId": 5
+    },
+    {
+      "date": "2022-02-15",
+      "amount": "40",
+      "description": "Gasolina",
+      "categoryId": "6",
+      "id": 9
     }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "Equipamentos de TI"
+      "name": "Equipamentos de TI, assinatura de softwares e cursos"
     },
     {
       "id": 2,
       "name": "Salário e freelas"
     },
     {
+      "id": 3,
+      "name": "Impostos"
+    },
+    {
       "id": 4,
       "name": "Entretenimento"
     },
     {
-      "name": "Pet",
-      "id": 5
+      "id": 5,
+      "name": "Investimentos"
+    },
+    {
+      "name": "Combustível",
+      "id": 6
     }
   ]
 }
