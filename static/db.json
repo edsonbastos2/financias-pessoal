@@ -15,20 +15,6 @@
       "categoryId": 1
     },
     {
-      "id": 3,
-      "description": "Salário",
-      "amount": 3000,
-      "date": "2022-01-03",
-      "categoryId": 2
-    },
-    {
-      "id": 4,
-      "description": "Freela",
-      "amount": 350,
-      "date": "2022-01-03",
-      "categoryId": 2
-    },
-    {
       "id": 5,
       "description": "IPVA",
       "amount": 750,
@@ -62,16 +48,19 @@
       "description": "Gasolina",
       "categoryId": "6",
       "id": 9
+    },
+    {
+      "date": "2022-02-16",
+      "amount": "30",
+      "description": "Jantar",
+      "categoryId": "4",
+      "id": 10
     }
   ],
   "categories": [
     {
       "id": 1,
       "name": "Equipamentos de TI, assinatura de softwares e cursos"
-    },
-    {
-      "id": 2,
-      "name": "Salário e freelas"
     },
     {
       "id": 3,
