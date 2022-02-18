@@ -73,7 +73,10 @@ export default{
 
   methods:{
     addTransaction(){
-      this.$store.dispatch('transactions/addTransactions', this.form).then(() => {
+      this.$store.dispatch('transactions/addTransactions', this.form).then((response) => {
+
+        this.$emit('after-add', {...response, category: this.categories.find(o => o.id == this.form.categoryId)})
+
         this.form.date = ''
         this.form.amount = ''
         this.form.description = ''
